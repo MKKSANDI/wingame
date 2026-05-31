@@ -41,18 +41,23 @@ python -m pip install -r requirements.txt
 python GamePerformanceOptimizer.py
 ```
 
+Run elevated (recommended for full tweak coverage):
+
+```powershell
+Start-Process python -ArgumentList "GamePerformanceOptimizer.py" -Verb RunAs
+```
+
 ## Build
 
 ```powershell
-BUILD.bat pyinstaller
+python -m pip install --upgrade pyinstaller
+python -m PyInstaller --noconfirm --clean --onefile --windowed --name "WinGame" --icon "WinGame.ico" --add-data "WinGame.png;." --add-data "system.png;." --add-data "game.png;." GamePerformanceOptimizer.py
 ```
 
-```powershell
-BUILD.bat nuitka
-```
+Copy `dist\WinGame.exe` to `releases\WinGame.exe`.
 
 ## Notes
 
 - some settings require reboot (`Hyper-V`, `VM Platform`, `all cores boot`)
 - `GamePerformanceOptimizer.py` is the primary maintained entry point
-- each build produces a packaged release in `releases\`
+- repository release binary path: `releases\WinGame.exe`

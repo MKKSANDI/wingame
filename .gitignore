@@ -8,8 +8,9 @@ __pycache__/
 build/
 dist/
 dist_nuitka/
-releases/
 *.spec
+releases/*
+!releases/WinGame.exe
 
 # Local runtime/config
 optimizer_config.json
