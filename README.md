@@ -1,30 +1,38 @@
 # WinGame
 
-WinGame is a Windows gaming optimization tool with a PyQt6 desktop UI.
-It applies a controlled set of registry, service, power, and boot tweaks used for performance-focused profiles.
+WinGame is a Windows gaming optimization desktop app built with PyQt6.
+It applies a selected set of system-level performance tweaks through an explicit apply flow.
 
-## What it does
+## Main behavior
 
-- queues changes in UI, then applies in one explicit batch
-- auto-detects CPU/GPU vendor for vendor-specific tweak paths
-- supports export/import of optimization profile JSON
-- supports per-service control for selected background services
-- prompts for restart only when required by selected toggles
-- can create a Windows restore point before applying changes
+- queues toggle changes in UI
+- applies selected changes only when `Apply All Enabled` is triggered
+- supports per-service selections for background service optimization
+- supports profile export/import (`JSON`)
+- prompts for restart when chosen toggles require it
+- offers restore point creation before applying a batch
+
+## Tweak areas
+
+- CPU scheduling and responsiveness
+- GPU profile and thread-priority tweaks by vendor
+- power plan controls
+- optional Hyper-V / VM platform disable flow
+- selected background service tuning
 
 ## Safety model
 
-- no hidden background daemon
-- no auto-apply on toggle; changes apply only when `Apply All Enabled` is clicked
-- all toggles are reversible through the same UI
-- restore point prompt is available before applying a batch
+- no auto-apply while toggling
+- no hidden startup service added by the app
+- reversible paths for each controlled setting
+- pre-apply confirmation and optional restore point prompt
 
 ## Requirements
 
 - Windows 10/11 (64-bit)
 - Administrator privileges
 - Python 3.10+
-- PyQt6 stack from `requirements.txt`
+- packages from `requirements.txt`
 
 ## Run from source
 
@@ -36,26 +44,17 @@ python GamePerformanceOptimizer.py
 
 ## Build
 
-PyInstaller build:
-
 ```powershell
 cd "D:\Moved From C\Desktop\Projects\WinGame"
 .\BUILD_EXE.bat
 ```
-
-Nuitka build:
 
 ```powershell
 cd "D:\Moved From C\Desktop\Projects\WinGame"
 .\BUILD_NUITKA.bat
 ```
 
-## Main script
-
-- `GamePerformanceOptimizer.py`: primary maintained app entry point
-- `GameOptimizer.py`: older variant retained for reference
-
 ## Notes
 
 - some settings require reboot (`Hyper-V`, `VM Platform`, `all cores boot`)
-- commands requiring elevation are run only after admin check
+- `GamePerformanceOptimizer.py` is the primary maintained entry point
