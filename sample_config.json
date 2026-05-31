@@ -1,0 +1,24 @@
+{
+    "version": "1.0",
+    "cpu_vendor": "Intel",
+    "gpu_vendor": "NVIDIA",
+    "settings": {
+        "power_throttling": true,
+        "cpu_gaming_opt": true,
+        "pc_responsiveness": true,
+        "disable_dvr": true,
+        "disable_maintenance": true,
+        "disable_energy": true,
+        "cpu_priority": true,
+        "all_cores": true,
+        "gpu_gaming_opt": true,
+        "gpu_tier": "Low-Medium (Budget GPU)",
+        "gpu_thread_priority": true,
+        "disable_hyperv": false,
+        "disable_vm_platform": false,
+        "disable_services": true,
+        "ultimate_performance": true
+    }
+}
+
+

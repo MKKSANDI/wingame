@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Build outputs
+build/
+dist/
+dist_nuitka/
+*.spec
+
+# Local runtime/config
+optimizer_config.json
+*.log
+
+# External pack assets and binaries
+Ultimate CPU+GPU Performance Boost Pack/
+*_PROJECT_SUMMARY.txt
+
+# OS/editor noise
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/

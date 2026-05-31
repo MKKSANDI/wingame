@@ -1,0 +1,329 @@
+═══════════════════════════════════════════════════════════════════════════════
+  🎨 GAME PERFORMANCE OPTIMIZER - UI PREVIEW 🎨
+═══════════════════════════════════════════════════════════════════════════════
+
+This document shows what the application looks like when running.
+
+═══════════════════════════════════════════════════════════════════════════════
+  📱 MAIN WINDOW LAYOUT
+═══════════════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ ╔═══════════════════════════════════════════════════════════════════════╗   │
+│ ║                          🎮 HEADER SECTION 🎮                        ║   │
+│ ║                                                                       ║   │
+│ ║  ⚡ Game Performance Optimizer                                       ║   │
+│ ║  Detected System: Intel CPU  •  NVIDIA GPU                          ║   │
+│ ╚═══════════════════════════════════════════════════════════════════════╝   │
+│                                                                             │
+│ ┌───────────────────────────────────────────────────────────────────────┐ │
+│ │                      📜 SCROLLABLE CONTENT 📜                         │ ▲│
+│ │                                                                       │ ││
+│ │ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ │ ││
+│ │ ┃  ⚙️  CPU Optimizations                                          ┃ │ ││
+│ │ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Disable Power Throttling                         ◯────○         │ │ ││
+│ │ │ Prevents Windows from limiting CPU performance                  │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Optimize CPU for Gaming                          ●────○         │ │ ││
+│ │ │ Sets high priority for gaming processes                         │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Increase PC Responsiveness                       ●────○         │ │ ││
+│ │ │ Disables network throttling and improves responsiveness         │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Disable Game DVR & Game Bar                      ●────○         │ │ ││
+│ │ │ Turns off Xbox Game Bar to free CPU/GPU resources              │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Disable Automatic Maintenance                    ◯────○         │ │ ││
+│ │ │ Prevents maintenance tasks during gaming                        │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Disable Energy Estimation                        ●────○         │ │ ││
+│ │ │ Stops energy logging service to reduce CPU overhead             │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Enable Intel CPU Priority                        ●────○         │ │ ││
+│ │ │ Optimizes CPU thread scheduling for Intel processors            │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Use All CPU Cores at Startup                     ◯────○         │ │ ││
+│ │ │ Forces Windows to use all cores during boot (requires restart)  │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ │ ││
+│ │ ┃  🎮  GPU Optimizations                                          ┃ │ ││
+│ │ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Gaming GPU Optimizations                         ●────○         │ │ ││
+│ │ │ Applies base gaming performance registry tweaks                 │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ GPU Performance Tier             [ Low-Medium (Budget GPU)  ▼] │ │ ││
+│ │ │ Select optimization level based on GPU capabilities             │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Enable NVIDIA Thread Priority                    ●────○         │ │ ││
+│ │ │ Optimizes GPU driver thread scheduling for NVIDIA               │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ │ ││
+│ │ ┃  💻  System Optimizations                                       ┃ │ ││
+│ │ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Disable Hyper-V Virtualization                   ◯────○         │ │ ││
+│ │ │ Disables virtualization to free CPU resources (needs restart)   │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Disable Virtual Machine Platform                 ◯────○         │ │ ││
+│ │ │ Turns off VM platform to reduce CPU overhead (needs restart)    │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Disable Unnecessary Background Services          ●────○         │ │ ││
+│ │ │ Stops non-essential services: SysMain, WSearch, DiagTrack       │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ││
+│ │                                                                       │ ││
+│ │ ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓ │ ││
+│ │ ┃  ⚡  Power Management                                            ┃ │ ││
+│ │ ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛ │ ││
+│ │                                                                       │ ││
+│ │ ┌─────────────────────────────────────────────────────────────────┐ │ ││
+│ │ │ Ultimate Performance Power Plan                  ●────○         │ │ ││
+│ │ │ Enables maximum performance (disables power saving)             │ │ ││
+│ │ └─────────────────────────────────────────────────────────────────┘ │ ▼│
+│ └───────────────────────────────────────────────────────────────────────┘ │
+│                                                                             │
+│ ╔═══════════════════════════════════════════════════════════════════════╗ │
+│ ║                         🎛️  BOTTOM BAR 🎛️                           ║ │
+│ ║                                                                       ║ │
+│ ║  💡 Toggle switches apply changes immediately                       ║ │
+│ ║                                                                       ║ │
+│ ║             [📤 Export]  [📥 Import]  [✓ Apply All Enabled]        ║ │
+│ ╚═══════════════════════════════════════════════════════════════════════╝ │
+└─────────────────────────────────────────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════
+  🎨 COLOR SCHEME
+═══════════════════════════════════════════════════════════════════════════════
+
+Background Colors:
+  • Main Window:        #202020 (Dark Gray)
+  • Header/Footer:      #1a1a1a (Darker Gray)
+  • Cards:              #2b2b2b (Medium Gray)
+  • Card Hover:         #323232 (Lighter Gray)
+  • Section Headers:    #252525 (Dark Gray)
+
+Accent Colors:
+  • Toggle ON:          #0078D4 (Windows Blue)
+  • Toggle OFF:         #5a5a5a (Gray)
+  • Success Button:     #107c10 (Green)
+  • Primary Button:     #0078D4 (Blue)
+  • Secondary Button:   #3f3f3f (Dark Gray)
+
+Text Colors:
+  • Title Text:         #ffffff (White)
+  • Description:        #b3b3b3 (Light Gray)
+  • System Info:        #888888 (Medium Gray)
+
+Borders:
+  • Card Border:        #3f3f3f (Gray)
+  • Card Hover:         #4f4f4f (Lighter Gray)
+  • Header/Footer:      #2f2f2f (Dark Gray)
+
+═══════════════════════════════════════════════════════════════════════════════
+  🎭 TOGGLE SWITCH STATES
+═══════════════════════════════════════════════════════════════════════════════
+
+OFF State (Disabled):
+  ┌──────────────┐
+  │ ●────○       │  Gray background (#5a5a5a)
+  └──────────────┘  White circle on left
+
+ON State (Enabled):
+  ┌──────────────┐
+  │      ○────●  │  Blue background (#0078D4)
+  └──────────────┘  White circle on right
+
+Animation:
+  • Duration: 200ms
+  • Easing: InOutCubic (smooth acceleration/deceleration)
+  • Circle slides left/right smoothly
+
+═══════════════════════════════════════════════════════════════════════════════
+  🖱️ INTERACTIVE ELEMENTS
+═══════════════════════════════════════════════════════════════════════════════
+
+Cards (Hover Effect):
+  Normal:  #2b2b2b background, #3f3f3f border
+  Hover:   #323232 background, #4f4f4f border
+           Cursor changes to pointer
+
+Buttons (3 States):
+  Normal:  Base color, no effect
+  Hover:   Slightly lighter color
+  Pressed: Slightly darker color
+           Cursor: pointing hand
+
+Dropdown:
+  Normal:  #3f3f3f background
+  Hover:   #4a4a4a background
+  Opened:  Shows list with blue selection
+
+Scrollbar:
+  Track:   #202020 (invisible)
+  Handle:  #3f3f3f (visible)
+  Hover:   #4f4f4f (lighter)
+
+═══════════════════════════════════════════════════════════════════════════════
+  📐 LAYOUT MEASUREMENTS
+═══════════════════════════════════════════════════════════════════════════════
+
+Window:
+  • Minimum Size: 1000x800 pixels
+  • Default Position: Center of screen
+  • Resizable: Yes (content scales)
+
+Header:
+  • Height: 90 pixels
+  • Padding: 30px horizontal, 15px vertical
+  • Font Size: 22pt (title), 9pt (subtitle)
+
+Content Area:
+  • Padding: 30px all sides
+  • Card Spacing: 15px between cards
+  • Scrollable: Yes (vertical)
+
+Cards:
+  • Height: Auto (based on content)
+  • Padding: 20px horizontal, 15px vertical
+  • Border Radius: 8px
+  • Border Width: 1px
+
+Section Headers:
+  • Font Size: 13pt
+  • Padding: 12px vertical, 20px horizontal
+  • Border Radius: 6px
+
+Toggle Switches:
+  • Size: 50x24 pixels
+  • Circle: 18x18 pixels
+  • Border Radius: 12px (fully rounded)
+
+Buttons:
+  • Height: 38 pixels
+  • Padding: 0-28px horizontal
+  • Border Radius: 4px
+  • Font Size: 10pt
+
+Bottom Bar:
+  • Height: 75 pixels
+  • Padding: 18px vertical, 30px horizontal
+
+═══════════════════════════════════════════════════════════════════════════════
+  💫 ANIMATION DETAILS
+═══════════════════════════════════════════════════════════════════════════════
+
+Toggle Switch:
+  • Type: Circle position animation
+  • Duration: 200 milliseconds
+  • Curve: InOutCubic (smooth ease)
+  • From: 3px (left) / 29px (right)
+  • To: 29px (right) / 3px (left)
+
+Card Hover:
+  • Transition: Instant (no animation)
+  • Effect: Background color change + border highlight
+
+Button Hover:
+  • Transition: Instant (CSS-like)
+  • Effect: Background color lightens/darkens
+
+═══════════════════════════════════════════════════════════════════════════════
+  🎯 SCREEN AREAS BREAKDOWN
+═══════════════════════════════════════════════════════════════════════════════
+
+┌─────────────────────────────────────────┐
+│  HEADER (10% of window)                 │  Fixed height, shows title & system info
+├─────────────────────────────────────────┤
+│                                         │
+│  SCROLLABLE CONTENT (80% of window)    │  All optimization cards in sections
+│  • CPU Optimizations Section          │  Scrolls vertically if content overflows
+│  • GPU Optimizations Section          │  
+│  • System Optimizations Section       │
+│  • Power Management Section           │
+│                                         │
+├─────────────────────────────────────────┤
+│  BOTTOM BAR (10% of window)            │  Fixed height, shows action buttons
+└─────────────────────────────────────────┘
+
+═══════════════════════════════════════════════════════════════════════════════
+  🖼️ VISUAL HIERARCHY
+═══════════════════════════════════════════════════════════════════════════════
+
+Level 1: Main Title
+  • Size: 22pt Bold
+  • Color: White
+  • Icon: ⚡
+
+Level 2: Section Headers
+  • Size: 13pt Bold
+  • Color: White
+  • Background: #252525
+  • Icons: ⚙️ 🎮 💻 ⚡
+
+Level 3: Card Titles
+  • Size: 11pt DemiBold
+  • Color: White
+  • Emphasis: High contrast
+
+Level 4: Descriptions
+  • Size: 9pt Regular
+  • Color: #b3b3b3 (Gray)
+  • Purpose: Explain features
+
+Level 5: Info Text
+  • Size: 9pt Regular
+  • Color: #888888 (Darker Gray)
+  • Purpose: Status/hints
+
+═══════════════════════════════════════════════════════════════════════════════
+  ✨ UI POLISH DETAILS
+═══════════════════════════════════════════════════════════════════════════════
+
+• All corners are rounded (4px-12px)
+• Consistent spacing throughout (15px-30px)
+• Hover states on ALL interactive elements
+• Cursor changes to pointer on clickable items
+• Smooth scrolling with custom scrollbar
+• Professional depth with subtle borders
+• No harsh edges or flat design
+• Windows 11 Fluent Design principles
+• Accessibility: High contrast ratios
+• Responsive to window resizing
+
+═══════════════════════════════════════════════════════════════════════════════
+
+This is what your beautiful, modern game optimizer looks like!
+NO ugly tkinter - just smooth, professional PyQt6 design! 🎨✨
+
+═══════════════════════════════════════════════════════════════════════════════
+
+

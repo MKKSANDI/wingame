@@ -1,0 +1,140 @@
+═══════════════════════════════════════════════════════════════
+  🎮 GAME PERFORMANCE OPTIMIZER - QUICK START GUIDE 🎮
+═══════════════════════════════════════════════════════════════
+
+📋 WHAT YOU NEED:
+  ✓ Windows 10/11 (64-bit)
+  ✓ Administrator rights
+  ✓ Python 3.8+ installed (if running from source)
+
+═══════════════════════════════════════════════════════════════
+
+🚀 OPTION 1: EASY START (Recommended)
+═══════════════════════════════════════════════════════════════
+
+1. Right-click "RUN_AS_ADMIN.bat"
+2. Select "Run as administrator"
+3. Click "Yes" on the User Account Control prompt
+4. The application will start automatically!
+
+═══════════════════════════════════════════════════════════════
+
+🚀 OPTION 2: MANUAL START
+═══════════════════════════════════════════════════════════════
+
+1. Open Command Prompt or PowerShell as Administrator
+2. Navigate to this folder
+3. Run: pip install -r requirements.txt
+4. Run: python GamePerformanceOptimizer.py
+
+═══════════════════════════════════════════════════════════════
+
+🎯 HOW TO USE THE APPLICATION:
+═══════════════════════════════════════════════════════════════
+
+1. CHECK SYSTEM INFO
+   • Look at the top of the window
+   • Verify your CPU and GPU are detected correctly
+
+2. ENABLE OPTIMIZATIONS
+   • Toggle the switches ON for optimizations you want
+   • Each change applies immediately!
+   • Green switch = enabled, Gray switch = disabled
+
+3. APPLY ALL SETTINGS
+   • Click "✓ Apply All Enabled" button at the bottom
+   • Or just toggle individual switches - they apply instantly!
+
+4. RESTART YOUR PC
+   • Some optimizations need a restart to fully work
+   • The app will tell you if restart is needed
+
+═══════════════════════════════════════════════════════════════
+
+💡 RECOMMENDED SETTINGS FOR MOST USERS:
+═══════════════════════════════════════════════════════════════
+
+✓ Enable ALL CPU Optimizations
+✓ Enable ALL GPU Optimizations
+✓ GPU Tier: Low-Medium (budget GPU) or Medium-High (powerful GPU)
+✓ Enable System Optimizations (Hyper-V, VM Platform, Services)
+✓ Enable Ultimate Performance Power Plan
+
+═══════════════════════════════════════════════════════════════
+
+💾 SAVING YOUR CONFIG:
+═══════════════════════════════════════════════════════════════
+
+EXPORT (Backup):
+  • Click "📤 Export Config"
+  • Save the JSON file somewhere safe
+  • Share with friends or keep as backup!
+
+IMPORT (Restore):
+  • Click "📥 Import Config"
+  • Select your saved JSON file
+  • Click "✓ Apply All Enabled"
+
+═══════════════════════════════════════════════════════════════
+
+🔄 REVERTING CHANGES:
+═══════════════════════════════════════════════════════════════
+
+Want to undo an optimization?
+  • Just toggle the switch OFF
+  • The setting reverts to Windows default
+  • That's it!
+
+═══════════════════════════════════════════════════════════════
+
+⚠️ IMPORTANT NOTES:
+═══════════════════════════════════════════════════════════════
+
+• ALWAYS run as Administrator (required for system changes)
+• Restart your PC after applying optimizations
+• All changes are REVERSIBLE - just toggle off
+• Your settings are auto-saved to "optimizer_config.json"
+• Safe for all PCs - no permanent damage possible
+
+═══════════════════════════════════════════════════════════════
+
+🔧 TROUBLESHOOTING:
+═══════════════════════════════════════════════════════════════
+
+❌ "Admin Required" error:
+   → Right-click program → "Run as administrator"
+
+❌ "Python not found":
+   → Install Python from: https://www.python.org/downloads/
+   → Make sure to check "Add Python to PATH" during install
+
+❌ "Module PyQt6 not found":
+   → Run: pip install -r requirements.txt
+
+❌ Changes not working:
+   → Restart your PC
+   → Make sure you ran as administrator
+   → Check if Windows Defender blocked changes
+
+═══════════════════════════════════════════════════════════════
+
+📊 WHAT TO EXPECT:
+═══════════════════════════════════════════════════════════════
+
+After optimization:
+  ✓ Lower CPU usage during gaming
+  ✓ Higher GPU utilization
+  ✓ Smoother FPS
+  ✓ Less stuttering
+  ✓ Reduced input lag
+  ✓ Better system responsiveness
+
+═══════════════════════════════════════════════════════════════
+
+🎮 HAPPY GAMING! 🎮
+
+Questions? Issues? Check README.md for detailed information!
+
+═══════════════════════════════════════════════════════════════
+
+
